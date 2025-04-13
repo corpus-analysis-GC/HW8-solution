@@ -32,7 +32,7 @@ def main() -> None:
         _, child = os.path.split(dirname)
         with open(path, "r") as source:
             mytree = etree.parse(source)
-            for word in mytree.xpath("//u[@who='CHI']/w/text()"):
+            for word in mytree.xpath("//u[@who='CHI']//w/text()"):
                 word = word.casefold()
                 if word in cu_verbs:
                     cu_counts[child] += 1

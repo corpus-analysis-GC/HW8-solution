@@ -1,4 +1,4 @@
-# HW9 solution
+# HW8 solution
 
 See [`cur.py`](cur.py). Sample usage:
     
@@ -6,7 +6,7 @@ See [`cur.py`](cur.py). Sample usage:
 
 This prints:
 
-    Abe: 2,459 CUs, 248 ORs; CUR: 90.84%
-    Adam: 2,080 CUs, 32 ORs; CUR: 98.48%
-    Eve: 280 CUs, 14 ORs; CUR: 95.24%
-    Sarah: 1,132 CUs, 20 ORs; CUR: 98.26%
+    Abe: 2,158 CUs, 328 ORs; CUR: 86.81%
+    Adam: 1,754 CUs, 45 ORs; CUR: 97.50%
+    Eve: 285 CUs, 14 ORs; CUR: 95.32%
+    Sarah: 1,080 CUs, 57 ORs; CUR: 94.99%
